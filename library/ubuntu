@@ -1,27 +1,29 @@
-# maintainer: Xiaolin Zhang <leoncamel@gmail.com>
+# maintainer: Xiaolin Zhang <leoncamel@gmail.com> (@xiaolin)
 
 # see https://wiki.ubuntu.com/Core#Current_Releases
 # see also https://wiki.ubuntu.com/Releases#Current
 
-latest: git://github.com/leoncamel/docker-brew-datacanvas-base ubuntu/14.04
-trusty: git://github.com/leoncamel/docker-brew-datacanvas-base ubuntu/14.04
-14.04: git://github.com/leoncamel/docker-brew-datacanvas-base ubuntu/14.04
+latest: git://github.com/leoncamel/docker-brew-datacanvas-base@b5f22508dd30d3801ebf05308fd2d59532a103c1 14.04
+trusty: git://github.com/leoncamel/docker-brew-datacanvas-base@b5f22508dd30d3801ebf05308fd2d59532a103c1 14.04
+14.04: git://github.com/leoncamel/docker-brew-datacanvas-base@b5f22508dd30d3801ebf05308fd2d59532a103c1 14.04
 # EOL: TBD
 
-precise: git://github.com/leoncamel/docker-brew-datacanvas-base ubuntu/12.04.4
-12.04: git://github.com/leoncamel/docker-brew-datacanvas-base ubuntu/12.04.4
+precise: git://github.com/leoncamel/docker-brew-datacanvas-base@b5f22508dd30d3801ebf05308fd2d59532a103c1 12.04.4
+12.04: git://github.com/leoncamel/docker-brew-datacanvas-base@b5f22508dd30d3801ebf05308fd2d59532a103c1 12.04.4
 # EOL: Apr 2017
 
 # ---
 
-quantal: git://github.com/leoncamel/docker-brew-datacanvas-base ubuntu/12.10
-12.10: git://github.com/leoncamel/docker-brew-datacanvas-base ubuntu/12.10
+quantal: git://github.com/leoncamel/docker-brew-datacanvas-base@b5f22508dd30d3801ebf05308fd2d59532a103c1 12.10
+12.10: git://github.com/leoncamel/docker-brew-datacanvas-base@b5f22508dd30d3801ebf05308fd2d59532a103c1 12.10
 # EOL: Apr 2014
 
-raring: git://github.com/leoncamel/docker-brew-datacanvas-base ubuntu/13.04
-13.04: git://github.com/leoncamel/docker-brew-datacanvas-base ubuntu/13.04
+raring: git://github.com/leoncamel/docker-brew-datacanvas-base@b5f22508dd30d3801ebf05308fd2d59532a103c1 13.04
+13.04: git://github.com/leoncamel/docker-brew-datacanvas-base@b5f22508dd30d3801ebf05308fd2d59532a103c1 13.04
 # EOL: Jan 2014
 
-saucy: git://github.com/leoncamel/docker-brew-datacanvas-base ubuntu/13.10
-13.10: git://github.com/leoncamel/docker-brew-datacanvas-base ubuntu/13.10
+saucy: git://github.com/leoncamel/docker-brew-datacanvas-base@b5f22508dd30d3801ebf05308fd2d59532a103c1 13.10
+13.10: git://github.com/leoncamel/docker-brew-datacanvas-base@b5f22508dd30d3801ebf05308fd2d59532a103c1 13.10
 # EOL: Jul 2014
+
+
