@@ -1,4 +1,5 @@
 
 - [sci-python:2.7] Upgrade to trusty
 - [sci-python:2.7] FROM zetdata/ubuntu:trusty
-- [sci-python;3.3] Fix "Python.h" problem
+- [sci-python:3.3] Fix "Python.h" problem
+- [cdh:5] add cdh-5
