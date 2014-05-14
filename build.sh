@@ -1,5 +1,10 @@
 #!/bin/bash
 
+docker pull ubuntu
+
+########
+# Ubuntu
+########
 docker build -t zetdata/ubuntu:latest ubuntu/14.04/
 docker build -t zetdata/ubuntu:14.04 ubuntu/14.04/
 docker build -t zetdata/ubuntu:trusty ubuntu/14.04/
@@ -22,3 +27,11 @@ docker build -t zetdata/ubuntu:saucy ubuntu/13.10/
 #########
 docker build -t zetdata/cdh:latest cdh/4/
 docker build -t zetdata/cdh:4 cdh/4/
+
+########
+# scientific python
+########
+docker build -t zetdata/sci-python:latest sci-python/2.7/
+docker build -t zetdata/sci-python:2.7 sci-python/2.7/
+
+# docker build -t zetdata/sci-python:3.3 sci-python/3.3/

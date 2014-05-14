@@ -1,0 +1,4 @@
+
+- [sci-python:2.7] Upgrade to trusty
+- [sci-python:2.7] FROM zetdata/ubuntu:trusty
+- [sci-python;3.3] Fix "Python.h" problem
