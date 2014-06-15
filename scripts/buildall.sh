@@ -35,3 +35,9 @@ docker build -t zetdata/sci-python:latest sci-python/2.7/
 docker build -t zetdata/sci-python:2.7 sci-python/2.7/
 
 docker build -t zetdata/sci-python:3.3 sci-python/3.3/
+
+########
+# R
+########
+docker build -t zetdata/r:latest R/3.0.2/
+docker build -t zetdata/r:3.0.2 R/3.0.2/
